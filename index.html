@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Metadata and Metatags -->
+    <meta name="description" content="Tutorial on HTML and Semantics." />
+    <meta charset="UTF-8" />
+
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+
+    <title>Learn HTML and Semantics the Ironclad way</title>
+  </head>
+  <body>
+    <!-- Content Sectioning -->
+    <!-- <section id="content-sectioning">
+      <header></header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
+
+      <section></section>
+      <article></article>
+
+      <nav></nav>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+      <hgroup>
+        <h2>HGroup Main Heading</h2>
+        <h3>HGroup Subheading</h3>
+      </hgroup>
+
+      <address>
+        <p>123 Sesame Street.</p>
+      </address>
+    </section> -->
+
+    <!-- Text Content -->
+    <!-- <section id="text-content">
+      <div>
+        <p>
+          This div is grouping 2 paragraphs
+        </p>
+
+        <p>
+          This div is grouping 2 paragraphs
+        </p>
+      </div>
+
+      <p>This is some random text on a site</p>
+
+      <br />
+
+      <blockquote cite="https://www.huxley.net/bnw/four.html">
+          <p>Words can be like X-rays, if you use them properly—they’ll go through anything. You read and you’re pierced.</p>
+          <footer>—Aldous Huxley, <cite>Brave New World</cite></footer>
+      </blockquote>
+
+      <br />
+
+      <hr />
+
+      <br />
+
+      <ol>
+        <li>
+          Step 1
+          <ol type="a">
+            <li>
+              Sub-step 1
+            </li>
+            <li>
+              Sub-step 2
+            </li>
+          </ol>
+        </li>
+        <li>Step 2</li>
+      </ol>
+
+      <br />
+
+      <ul>
+        <li>
+          FPV Drones
+          <ul>
+            <li>Repairing FPV Drones</li>
+            <li>Watching FPV Drone Flights</li>
+          </ul>
+        </li>
+        <li>Bass Fishing</li>
+      </ul>
+
+      <br />
+
+      <p>DL of Different Titles in Web Development:</p>
+      <dl>
+        <dt>Full-stack Developer</dt>
+        <dd>Takes care of the front and back</dd>
+
+        <dt>Front-end Developer</dt>
+        <dd>Takes care of front-end things</dd>
+
+        <dt>Back-end Developer</dt>
+        <dd>Takes care of back-end things</dd>
+      </dl>
+    </section> -->
+
+    <!-- Inline Text Semantics -->
+    <!-- <section id="inline-text-semantics">
+      <p><a href="about.html">Local/Relative Page</a></p>
+      <p><a href="https://google.com">Google</a></p>
+      <p><a href="https://google.com" target="_blank">Google in a new tab</a></p>
+      <p><a href="https://google.com" target="_blank" rel="noreferrer">Google in a secure new tab</a></p>
+      <p><a href="mailto:me@email.com">Email somebody</a></p>
+      <p><a href="mailto:me@email.com?subject=This is my subject">Email somebody with Subject</a></p>
+      <p><a href="tel:8001234567">Make a phone call</a></p>
+
+      <br />
+      <p>Text with a<br />line break</p>
+
+      <p>This is a citation from <cite><a href="https://google.com">Google</a></cite></p>
+
+      <p>This is some text <em>that shows emphasis</em>.</p>
+
+      <p>The abbreviation for the World Wide Web is <abbr title="World Wide Web">WWW</abbr></p>
+
+      <p>Strong element denotes some <strong>important text</strong>, typically bolded</p>
+
+      <p>Mark is for highlighting text which is <mark>marked</mark> or <mark>highlighted</mark> for reference or notation purposes.</p>
+
+      <p>The strikethrough element is for text that should look like <s>this</s>, stricken through.</p>
+
+      <p>This is an inline quote where I said, <q cite="some citation link">Hello there! How do you do?</q>.</p>
+
+      <small>&copy; 2020, Ironclad Tutorials</small>
+
+      <p>H<sub>2</sub>O</p>
+      <p>This is a superscript: July 4<sup>th</sup> is awesome</p>
+
+      <time>1:30a.m.</time>
+      
+      <p>This is a sentence using a span for <span class="specific">specific styling</span> of some text content</p>
+      <style>
+        .specific {
+          color:forestgreen;
+          font-size: 20px;
+          font-weight: bold;
+        }
+      </style>
+    </section> -->
+
+    <!-- Image & Multimedia -->
+    <!-- <section id="image-and-multimedia">
+      <img
+        src="https://placekitten.com/101/101"
+        alt="This is a picture of a kitten."
+      />
+      <img
+        src=""
+        alt="This is a picture of a kitten."
+      />
+      <img
+        src="https://placekitten.com/101/101"
+      />
+      
+      <figure>
+        <img src="https://placekitten.com/100/100" alt="This is a picture of a kitten." />
+        <figcaption>
+          This is an image of a kitten.
+        </figcaption>
+      </figure>
+
+      <picture>
+        <source
+          srcset="https://placekitten.com/104/104"
+          media="(max-width: 999px)"
+        />
+        <source
+          srcset="https://placekitten.com/103/103"
+          media="(min-width: 1000px)"
+        />
+
+        <img src="https://placekitten.com/102/102" alt="This is a picture of a kitten." />
+      </picture>
+
+      <figure>
+        <figcaption>This is an audio file with a caption:</figcaption>
+        <audio controls src="assets/audiofile.wav"></audio>
+      </figure>
+
+      <audio
+        controls
+        loop
+        muted
+        src="assets/audiofile.wav"
+      >
+        Your browser does not support the audio elememt.
+      </audio>
+
+      <br />
+
+      <video
+        controls
+        src="your-video-url"
+        style="width: 500px;"
+      >
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+
+      <video
+        controls
+        loop
+        muted
+        style="width: 500px;"
+      >
+        <source
+          src="your-video-url"
+          type="video/mp4"
+        />
+        <source
+          src="your-webm-video-url"
+          type="video/webm"
+        />
+
+        <track
+          default
+          kind="subtitles"
+          label="English"
+          src="example-subtitles-english.vtt"
+          srclang="en"
+        />
+
+        <track
+          kind="subtitles"
+          label="Spanish"
+          src="example-subtitles-spanish.vtt"
+          srclang="es"
+        />
+
+        Sorry, your browser doesn't support embedded videos.
+      </video>
+    </section> -->
+
+    <!-- Scripting -->
+    <!-- <section id="scripting">
+      <script>
+        console.log('hello world!')
+      </script>
+
+      <script src="index.js"></script>
+
+      <noscript>
+        Sorry, can't log anything to the console
+      </noscript>
+    </section> -->
+
+    <!-- Demarcating Edits -->
+    <!-- <section id="demarcating-edits">
+      <p>
+        This is some <del>deleted</del> <ins>inserted</ins> text
+      </p>
+    </section> -->
+
+    <!-- Table Content -->
+    <!-- <section id="table-content">
+      <table>
+        <caption>This is an example table caption</caption>
+
+        <thead>
+          <tr>
+            <th></th>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Row 1</th>
+            <td>Row 1, Column 1</td>
+            <td>Row 1, Column 2</td>
+            <td>Row 1, Column 3</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Row 2</th>
+            <td>Row 2, Column 1</td>
+            <td>Row 2, Column 2</td>
+            <td>Row 2, Column 3</td>
+          </tr>
+        </tbody>
+
+        <tfoot>
+          <tr>
+            <td colspan="4"><small>Footer message that is small</small></td>
+          </tr>
+        </tfoot>
+      </table>
+
+      <style>
+        table {
+          display: none;
+          border-collapse: collapse;
+        }
+        table,
+        td {
+            border: 1px solid #333;
+        }
+        td {
+          padding: 5px;
+        }
+
+        thead,
+        tfoot {
+            background-color: #333;
+            color: #fff;
+        }
+      </style>
+    </section> -->
+
+    <!-- Forms -->
+    <!-- <section id="forms">
+      <form action="#" method="POST" id="form">
+        <div>
+          <label for="firstName">First Name</label>
+          <input type="text" name="firstName" id="firstName" placeholder="First Name" required />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="email">Email Address</label>
+          <input type="email" name="email" id="email" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="passinput">Password</label>
+          <input type="password" name="password" id="passinput" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="experience">Years of Experience</label>
+          <input type="number" name="experience" id="experience" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="color">Favorite Color</label>
+          <input type="color" name="color" id="color" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="dateinput">Date input</label>
+          <input type="date" name="date" id="dateinput" />
+        </div>
+
+        <br />
+
+        <div>
+          <label for="message">Message:</label>
+          <textarea name="message" id="message"></textarea>
+        </div>
+
+        <br />
+
+        <fieldset>
+          <legend>Select Your Favorite Food:</legend>
+          <label for="pizza">Pizza</label>
+          <input type="radio" id="pizza" name="radiobtn" value="pizza" />
+          <label for="tacos">Tacos</label>
+          <input type="radio" id="tacos" name="radiobtn" value="tacos" checked />
+        </fieldset>
+
+        <br />
+
+        <fieldset>
+          <legend>Which languages do you like:</legend>
+          <label for="html">HTML</label>
+          <input type="checkbox" id="html" name="html" value="html" />
+          <label for="css">CSS</label>
+          <input type="checkbox" id="css" name="css" value="css" />
+        </fieldset>
+
+        <br />
+
+        <label for="selection">Select a choice:</label>
+        <select name="selection" id="selection">
+          <option value="">--Please choose an option--</option>
+          <option value="1">Option 1</option>
+          <option value="2">Option 2</option>
+          <optgroup label="First Group">
+            <option value="3">Group 1 Option 1</option>
+          </optgroup>
+          <optgroup label="Second Group">
+            <option value="4">Group 2 Option 1</option>
+          </optgroup>
+        </select>
+
+        <br />
+        <br />
+
+        <input type="submit" />
+
+        <button>Submit</button>
+      </form>
+    </section> -->
+
+    <!-- Interactive Elements -->
+    <!-- <section id="interactive-elements">
+      <details>
+        These are the details!
+        <summary>Toggle the details</summary>
+      </details>
+      <details>
+        These are the second details!
+        <summary>Toggle the second details</summary>
+      </details>
+    </section> -->
+  </body>
+</html>
